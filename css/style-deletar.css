@@ -1,0 +1,63 @@
+/* Estilos gerais */
+/* O asterisco (*) é um seletor universal que aplica os estilos a todos os elementos da página. */
+* {
+    margin: 0; /* Remove a margem padrão de todos os elementos */
+    padding: 0; /* Remove o preenchimento padrão de todos os elementos */
+    box-sizing: border-box; /* Faz com que a largura e altura de elementos incluam o preenchimento e a borda, facilitando o controle de layout */
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte do texto como Arial, com uma alternativa sans-serif caso Arial não esteja disponível */
+    background-color: #f0f0f0; /* Define a cor de fundo da página */
+    display: flex; /* Utiliza o modelo de layout Flexbox para organizar os itens dentro do corpo */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Define a altura do corpo como 100% da altura da janela do visualizador (viewport) */
+    color: #333; /* Define a cor do texto como um tom escuro de cinza */
+}
+
+/* Caixa de feedback */
+.container {
+    background-color: #fff; /* Define a cor de fundo da caixa como branco */
+    padding: 20px; /* Adiciona um espaçamento interno de 20 pixels em todos os lados da caixa */
+    border-radius: 8px; /* Arredonda os cantos da caixa */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave abaixo da caixa para dar profundidade */
+    max-width: 400px; /* Define a largura máxima da caixa como 400 pixels */
+    width: 100%; /* Faz com que a caixa ocupe 100% da largura disponível até a largura máxima */
+    text-align: center; /* Centraliza o texto dentro da caixa */
+}
+
+/* Mensagens de sucesso e erro */
+.msg-success {
+    color: #28a745; /* Define a cor do texto como verde (indica sucesso) */
+    font-weight: bold; /* Torna o texto em negrito */
+    margin-top: 20px; /* Adiciona uma margem superior de 20 pixels */
+}
+
+.msg-error {
+    color: #dc3545; /* Define a cor do texto como vermelho (indica erro) */
+    font-weight: bold; /* Torna o texto em negrito */
+    margin-top: 20px; /* Adiciona uma margem superior de 20 pixels */
+}
+
+/* Estilos do botão de voltar */
+.back-button {
+    display: inline-block; /* Faz com que o botão se comporte como um bloco em linha, permitindo definir largura e altura */
+    margin-top: 20px; /* Adiciona uma margem superior de 20 pixels */
+    padding: 10px 20px; /* Adiciona um preenchimento interno de 10 pixels em cima e embaixo, e 20 pixels nas laterais */
+    background-color: #007bff; /* Define a cor de fundo do botão como azul */
+    color: white; /* Define a cor do texto no botão como branca */
+    text-decoration: none; /* Remove o sublinhado do texto do botão (caso seja um link) */
+    border-radius: 4px; /* Arredonda os cantos do botão */
+    font-weight: bold; /* Torna o texto do botão em negrito */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave na cor de fundo ao passar o mouse sobre o botão */
+}
+
+/* Estilo do botão ao passar o mouse */
+.back-button:hover {
+    background-color: #0056b3; /* Muda a cor de fundo do botão para um tom mais escuro de azul quando o mouse passa sobre ele */
+}
+
+/*final da epata 7: 02/10 as 9:40*/
+/* final da etapa 8: 02/10 as 10:50*/

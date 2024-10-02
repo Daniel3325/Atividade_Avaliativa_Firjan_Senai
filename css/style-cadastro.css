@@ -1,0 +1,148 @@
+/* Define a margem e padding padrão para todos os elementos */
+* {
+    /* Remove as margens e os preenchimentos padrão de todos os elementos */
+    margin: 0;
+    padding: 0;
+    /* Faz com que a largura e a altura total do elemento incluam bordas e preenchimentos */
+    box-sizing: border-box;
+}
+
+/* Estilos para o corpo da página */
+body {
+    /* Define a fonte que será usada no corpo da página */
+    font-family: Arial, sans-serif;
+    /* Define a cor de fundo da página */
+    background-color: #f5f5f5;
+    /* Define a cor do texto na página */
+    color: #333;
+    /* Utiliza Flexbox para centralizar o conteúdo */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura como 100% da altura da tela */
+}
+
+/* Estilos para o container que envolve o conteúdo */
+.container {
+    /* Define a cor de fundo do container */
+    background-color: #fff;
+    /* Adiciona um preenchimento interno de 20 pixels */
+    padding: 20px;
+    /* Define bordas arredondadas de 8 pixels */
+    border-radius: 8px;
+    /* Adiciona uma sombra ao container para dar um efeito de profundidade */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Define a largura máxima do container */
+    max-width: 400px;
+    /* Faz com que o container ocupe toda a largura disponível */
+    width: 100%;
+}
+
+/* Estilos para os cabeçalhos de nível 2 */
+h2 {
+    /* Centraliza o texto dentro do cabeçalho */
+    text-align: center;
+    /* Define a margem inferior como 20 pixels */
+    margin-bottom: 20px;
+    /* Define a cor do texto do cabeçalho */
+    color: #4CAF50; /* Um tom de verde */
+}
+
+/* Estilos para o formulário */
+form {
+    /* Utiliza Flexbox para organizar os elementos do formulário em coluna */
+    display: flex;
+    flex-direction: column; /* Coloca os itens em uma coluna vertical */
+}
+
+/* Estilos para os rótulos dos campos do formulário */
+label {
+    /* Define a margem inferior dos rótulos como 5 pixels */
+    margin-bottom: 5px;
+    /* Define o peso da fonte como negrito */
+    font-weight: bold;
+}
+
+/* Estilos para o botão de envio do formulário */
+input[type="submit"] {
+    /* Define a cor de fundo do botão */
+    background-color: #4CAF50; /* Verde */
+    /* Define a cor do texto do botão */
+    color: white;
+    /* Muda o cursor para uma mão ao passar o mouse sobre o botão */
+    cursor: pointer;
+    /* Define o peso da fonte como negrito */
+    font-weight: bold;
+    /* Define uma transição suave para a mudança de cor do fundo */
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos para o botão ao passar o mouse sobre ele */
+input[type="submit"]:hover {
+    /* Muda a cor de fundo do botão quando o mouse está sobre ele */
+    background-color: #45a049; /* Um tom de verde mais escuro */
+}
+
+/* Estilos para os campos de entrada quando estão em foco */
+input:focus {
+    /* Remove a borda padrão do campo de entrada */
+    outline: none;
+    /* Altera a cor da borda do campo para verde quando em foco */
+    border-color: #4CAF50; /* Verde */
+}
+
+/* Estilos para a seção de feedback após o envio do formulário */
+.feedback {
+    /* Organiza os elementos de feedback em uma coluna */
+    display: flex;
+    flex-direction: column;
+    /* Centraliza os itens na seção de feedback */
+    align-items: center;
+    /* Adiciona margem superior de 20 pixels */
+    margin-top: 20px;
+}
+
+/* Estilos para mensagens de sucesso */
+.msg-success, .msg-error {
+    /* Define a cor do texto para as mensagens de sucesso */
+    color: #28a745; /* Verde */
+    /* Define o peso da fonte como negrito */
+    font-weight: bold;
+    /* Centraliza o texto */
+    text-align: center;
+}
+
+/* Estilos para mensagens de erro */
+.msg-error {
+    /* Define a cor do texto para mensagens de erro */
+    color: #dc3545; /* Vermelho */
+}
+
+/* Estilos para o botão de voltar */
+.back-button {
+    /* Adiciona margem superior de 10 pixels */
+    margin-top: 10px;
+    /* Define a cor de fundo do botão de voltar */
+    background-color: #007bff; /* Azul */
+    /* Define a cor do texto do botão */
+    color: white;
+    /* Adiciona preenchimento interno de 10 pixels */
+    padding: 10px;
+    /* Define bordas arredondadas de 5 pixels */
+    border-radius: 5px;
+    /* Remove o sublinhado do texto do link */
+    text-decoration: none;
+    /* Define o peso da fonte como negrito */
+    font-weight: bold;
+    /* Define uma transição suave para a mudança de cor do fundo */
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos para o botão de voltar ao passar o mouse sobre ele */
+.back-button:hover {
+    /* Muda a cor de fundo do botão quando o mouse está sobre ele */
+    background-color: #0056b3; /* Um tom de azul mais escuro */
+}
+
+/* final da epata 7: 02/10 as 9:40 */
+/* final da etapa 8: 02/10 as 10:50*/
